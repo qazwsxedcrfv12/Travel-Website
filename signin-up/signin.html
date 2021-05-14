@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <style>
+        body{
+            background-color: rgb(245, 230, 188);
+        }
+        .container{
+            border: 2px solid blanchedalmond;
+            height: 400px;
+            text-align: center;
+            margin-top: 200px;
+            background-color: rgb(219, 215, 215);
+        }
+        input[type='email']{
+            width: 600px;
+        }
+        input:hover{
+            background-color: rgb(219, 248, 191);
+        }
+        #btn{
+            background-color: honeydew;
+            margin-right: 178px;
+            margin-top: 20px;
+        }
+        #btn:hover{
+            color: lawngreen;
+        }
+        form{
+            margin-top: 54px;
+        }
+        h2{
+            margin-top: 29px;
+            font-family: cursive;
+            /* color: rgb(250, 255, 250); */
+        }
+        #forget{
+            margin-top: 50px;
+            margin-right: -110px;
+        }
+        a:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h2>Sign in to Your Account</h2>
+            <form action="#">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="u-full-width">
+                </div>
+                <div>
+                    <button class="u-pull-right" id="btn">Sign In</button>
+                </div>
+            </form>
+            <div class="u-pull-right" id="forget">
+                 <a href="#">Forgot Password</a>
+            </div>
+        </div>
+</body>
+</html>
