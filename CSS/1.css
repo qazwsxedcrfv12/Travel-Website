@@ -33,7 +33,7 @@ header::before {
   margin: 19px;
   padding: 9px;
 } */
-li {
+.navigation li {
   margin: 16px;
   padding: 12px;
   margin-left: -19px;
@@ -271,4 +271,22 @@ li {
   /* margin: auto; */
   background-color: black;
   color: blanchedalmond;
+}
+.link-1 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.link-1 h4 {
+  text-align: center;
+}
+.contact {
+  background-color: whitesmoke;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact li {
+  list-style: none;
 }
