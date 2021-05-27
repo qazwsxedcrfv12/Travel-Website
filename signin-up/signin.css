@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(245, 230, 188);
+}
+.container {
+  border: 2px solid blanchedalmond;
+  height: 400px;
+  text-align: center;
+  margin-top: 200px;
+  background-color: rgb(219, 215, 215);
+}
+input[type="email"] {
+  width: 600px;
+}
+input:hover {
+  background-color: rgb(219, 248, 191);
+}
+#btn {
+  background-color: honeydew;
+  margin-right: 178px;
+  margin-top: 20px;
+}
+#btn:hover {
+  color: lawngreen;
+}
+form {
+  margin-top: 54px;
+}
+h2 {
+  margin-top: 29px;
+  font-family: cursive;
+}
+#forget {
+  margin-top: 50px;
+  margin-right: -114px;
+}
+a:hover {
+  color: black;
+}
